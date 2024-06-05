@@ -1,0 +1,133 @@
+.root {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.list_tareas {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.div_tareas {
+    width: 100%;
+    height: auto;
+    padding: 1rem; 
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    background-color: #e9ecef; 
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px; 
+}
+
+.texto {
+    flex-grow: 1;
+    margin: 0;
+    padding: 0 5px;
+}
+
+.estado {
+    font-size: 12px; 
+    cursor: pointer;
+    color: black;
+}
+
+.botones {
+    text-align: right;
+}
+
+.btn_mas {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.btn_mas:hover {
+    background-color: #218838;
+}
+
+.formulario {
+    width: 100%;
+    background-color: #b0a695ce;
+    position: absolute;
+    justify-content: center;
+    width: 500px;
+    height: 20rem;
+    display: none;
+}
+
+.formulario.activar_b {
+    display: block;
+}
+
+.formulario.activar_f {
+    display: flex;
+}
+
+.formulario.activar_g {
+    display: grid;
+}
+
+.div_formulario {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+.div_formulario input[type="text"],
+.div_formulario select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: #F3EEEA; /* Color de fondo para los inputs */
+}
+
+.btn_cerrar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+.btn_ok {
+    padding: 5px 10px;
+    background-color: #EBE3D5;
+    color: black;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
